@@ -2,4 +2,4 @@
 
 ## Contents
 
-- [Dijkstras Shortest Path](/Dijkstraa.cpp)
+- [Dijkstras Shortest Path](/Dijkstras.cpp)

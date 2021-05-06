@@ -7,3 +7,4 @@ The goal of this project is to have in a single place all possible algorithms an
 ## Contents
 
 - [Graph-Algorithms](/Graph-Algorithms/)
+- [Sorting-Algorithms](/Sorting-Algorithms/)

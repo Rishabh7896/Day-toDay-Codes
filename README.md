@@ -2,7 +2,7 @@
 
 ## Overview
 
-The goal of this project is to have in a single place all possible algorithms and data structures.
+The goal of this repository is to have a single place for all our important algorithms and data structures.
 
 ## Contents
 

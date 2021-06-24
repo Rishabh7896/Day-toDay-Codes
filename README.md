@@ -6,5 +6,15 @@ The goal of this repository is to have a single place for all our important algo
 
 ## Contents
 
-- [Graph-Algorithms](/Graph-Algorithms/)
+
+- [Array Query](/Array-Query/)
+- [Bit Manipulation](/Bit-Manipulation/)
+- [Computational Geometry](/Computational-Geometry/)
+- [Data Structures](/Data-Structures/)
+- [Dynamic Programming](/Dynamic-Programming/)
+- [Graph Algorithms](/Graph-Algorithms/)
+- [Math](/Math/)
+- [Miscellaneous](/Miscellaneous/)
+- [Search-Algorithms](/Search-Algorithms/)
 - [Sorting-Algorithms](/Sorting-Algorithms/)
+- [Stack](/Stack/)

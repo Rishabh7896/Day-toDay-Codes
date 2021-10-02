@@ -34,8 +34,9 @@ return ans;
 }
 
 int main(){
-
-cout<<eggDroppingDP(2,36)<<endl;
-
-return 0;
+    
+    int eggs,floors;
+    cin>>eggs>>floors;
+    cout<<eggDroppingDP(eggs,floors)<<endl;
+    return 0;
 }

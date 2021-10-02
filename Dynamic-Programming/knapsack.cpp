@@ -47,11 +47,20 @@ else{
 
 
 int main(){
-
-    int val[] = {60, 100, 120};
-    int wt[] = {10, 20, 30};
-    int  W = 50;
-    int N = sizeof(val)/sizeof(val[0]);
+    
+    //input N(size of array/ available items ) then value array and then weight array and then Final Weight
+    int N;
+    cin>>N;
+    int val[N];
+    int wt[N];
+    int  W;
+    for(int i=0;i<N;i++){
+        cin>>val[i];
+    }
+    for(int i=0;i<N;i++){
+        cin>>wt[i];
+    }
+    cin>>W;
     printf("%d\n", KnapSackRecursive(wt, val, W, N));
     printf("%d\n", KnapSackDP(wt, val, W, N));
     return 0;

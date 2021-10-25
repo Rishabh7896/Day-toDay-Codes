@@ -23,15 +23,16 @@ int main()
 	vector<int>arr(n);
 	for(int i=0;i<n;i++)
 		cin>>arr[i];
-    sort(arr.begin(),arr.end());
-    int key;
-    cin>>key;
-    bool result=binarysearch(arr,key,0,n);
-    if(result)
-        cout<<"Element found"<<endl;
-    else
-        cout<<"Element not found"<<endl;
-    return 0;
+    	sort(arr.begin(),arr.end());
+    	int key;
+	
+    	cin>>key;
+   	 bool result=binarysearch(arr,key,0,n);
+    	if(result)
+        	cout<<"Element found"<<endl;
+    	else
+        	cout<<"Element not found"<<endl;
+    	return 0;
 }
 
 /*

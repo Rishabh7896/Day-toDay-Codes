@@ -9,6 +9,7 @@ void update(int fenwick[],int ind,int n)
 		ind+=(ind&(-ind));
 	}
 }
+
 int query(int fenwick[],int ind)
 {
     int sum=0;
@@ -19,6 +20,7 @@ int query(int fenwick[],int ind)
     }
     return sum;
 }
+
 int main()
 {
 	int n;

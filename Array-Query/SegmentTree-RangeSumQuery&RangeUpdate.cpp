@@ -75,7 +75,7 @@ int main()
 	int arr[n];
 	for(int i=0;i<n;i++)
 		cin>>arr[i];
-	int treesize=1<<((int)(ceil(log2(n)))+1)-1;
+	int treesize=(1<<((int)(ceil(log2(n)))+1))-1;
 	constructsg(arr,0,n-1,0);
 	int q;
 	cin>>q;

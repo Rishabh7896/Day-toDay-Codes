@@ -40,7 +40,7 @@ int main()
 	vector<int>arr(n);
 	for(int i=0;i<n;i++)
 		cin>>arr[i];
-	int treesize=1<<((int)(ceil(log2(n)))+1)-1;
+	int treesize=(1<<((int)(ceil(log2(n)))+1))-1;
 	vector<int>sgtree(treesize);
 	constructsg(arr,0,n-1,sgtree,0);
 	int q;
